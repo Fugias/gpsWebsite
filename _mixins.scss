@@ -1,0 +1,65 @@
+.blue {
+    background-color: #435790;
+}
+
+.blue_color {
+    color: #435790;
+}
+
+.orange {
+    background-color: #FF9C8B;
+}
+
+.orange_color {
+    color: #FF9C8B;
+}
+
+.white {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.width {
+    max-width: 1150px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.center_flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.space_flex {
+    justify-content: space-between;
+}
+
+.align_flex {
+    align-items: center;
+}
+
+.align {
+    text-align: center;
+}
+
+.display {
+    display: none;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.como {
+    font-family: "como", sans-serif;
+}
+
+img[src="./images/apple.svg"], img[src="./images/google.svg"] {
+    height: 58px;
+}

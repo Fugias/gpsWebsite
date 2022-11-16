@@ -1,0 +1,187 @@
+
+header {
+    height: 146px;
+}
+
+.header_wrap {
+    height: 100%;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 51px;
+}
+
+.logo p {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 48px;
+        margin-left: 13px;
+}
+
+.links a {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.links a:nth-child(3) {
+    margin-right: 45px;
+}
+
+.links a:nth-child(2) {
+    margin: 0px 45px;
+}
+
+.button {
+    height: 56px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.mobile_button {
+    display: none;
+}
+
+.mobile_button img {
+    width: 43px;
+}
+
+.mobile_menu {
+    transform: translateX(100%);
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.links_menu {
+    margin-top: 125px;
+    gap: 39px;
+}
+
+.links_menu a {
+    overflow: hidden;
+    padding-bottom: 2px;
+}
+
+.links_menu li {
+    transform: translateY(100%);
+    list-style: none;
+    font-size: 40px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.socials {
+    gap: 16px;
+}
+
+.mobile_menu .space_flex {
+    height: calc(100vh - 94px);
+}
+
+.menu_foot {
+    margin-bottom: 100px;
+
+    .socials {
+        margin-bottom: 70px;
+    }
+
+    a {
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+}
+
+.click {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .links a {
+        font-size: 15px;
+    }
+
+    .button {
+        font-size: 15px;
+    }
+
+    .logo p {
+        font-size: 25px;
+    }
+
+ }
+
+
+
+@media only screen and (max-width: 850px) {
+
+    header, .wrap_menu {
+        height: 94px;
+    }
+
+    .logo img {
+        height: 33px;
+    }
+
+    .logo p {
+        font-size: 24px;
+        margin-left: 9px;
+        line-height: 34px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .button {
+        width: 104px;
+        height: 42px;
+        border-radius: 15px;
+        font-size: 15px;
+        line-height: 21px;
+        display: none;
+    }
+
+    .mobile_button {
+        display: flex;
+    }
+
+    .mobile_button .button {
+        display: flex;
+        margin-right: 19px;
+    }
+
+
+}
+
+
+@media only screen and (max-height: 800px) { 
+
+    .menu_foot {
+
+        margin-bottom: 30px;
+
+        .socials {
+            margin-bottom: 20px;
+        }
+    }
+
+    .links_menu {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-height: 650px) { 
+    .links_menu {
+        margin-top: 30px;
+    }
+}

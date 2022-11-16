@@ -1,0 +1,130 @@
+.mobile_wrap {
+  position: relative;
+  width: 50%;
+}
+
+.mobile {
+  width: 732px;
+  position: absolute;
+  right: 28px;
+  bottom: -87px;
+}
+
+.first {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  width: 50%;
+  h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 64px;
+    max-width: 625px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 44px;
+    margin-bottom: 46px;
+    max-width: 507px;
+  }
+
+}
+
+.download {
+  gap: 22px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .first h1 {
+    font-size: 35px;
+    max-width: 400px;
+  }
+
+  .first p {
+    font-size: 15px;
+    max-width: 400px;
+  }
+
+  .mobile {
+    width: 680px;
+  }
+
+  img[src="./images/apple.svg"], img[src="./images/google.svg"] {
+    height: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 850px) {
+  .first_wrap {
+    flex-direction: column;
+  }
+
+  .first {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 37px;
+      max-width: 293px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 27px;
+      margin-top: 16px;
+      margin-bottom: 18px;
+      max-width: 341px;
+    }
+
+    img {
+      width: 100%;
+      height: 43px;
+    }
+  }
+
+  .mobile_wrap {
+    width: 100%;
+    height: 235px;
+    order: 2;
+  }
+  .mobile {
+    width: 342px;
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%) rotate(-20deg);
+  }
+  .download {
+    gap: 9px;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+  .mobile {
+    width: 250px;
+  }
+
+  .mobile_wrap {
+    height: 190px;
+  }
+
+  .mobile {
+    top: 35px;
+  }
+
+}
